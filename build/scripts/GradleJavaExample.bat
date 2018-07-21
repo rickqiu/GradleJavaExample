@@ -63,10 +63,10 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\GradleJavaExample.jar;%APP_HOME%\lib\jackson-databind-2.9.4.jar;%APP_HOME%\lib\log4j-core-2.11.0.jar;%APP_HOME%\lib\log4j-api-2.11.0.jar;%APP_HOME%\lib\hsqldb-2.4.0.jar;%APP_HOME%\lib\jackson-annotations-2.9.0.jar;%APP_HOME%\lib\jackson-core-2.9.4.jar
+set CLASSPATH=%APP_HOME%\lib\GradleJavaExample.jar;%APP_HOME%\lib\jackson-databind-2.9.4.jar;%APP_HOME%\lib\log4j-core-2.11.0.jar;%APP_HOME%\lib\log4j-api-2.11.0.jar;%APP_HOME%\lib\commons-cli-1.4.jar;%APP_HOME%\lib\hsqldb-2.4.0.jar;%APP_HOME%\lib\jackson-annotations-2.9.0.jar;%APP_HOME%\lib\jackson-core-2.9.4.jar
 
 @rem Execute GradleJavaExample
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_JAVA_EXAMPLE_OPTS%  -classpath "%CLASSPATH%" com.mytest.MainApp %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_JAVA_EXAMPLE_OPTS%  -classpath "%CLASSPATH%" com.company.app.MainApp %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

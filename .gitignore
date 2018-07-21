@@ -50,3 +50,5 @@ bin/
 test_db*
 
 
+/.gradle/
+/build/

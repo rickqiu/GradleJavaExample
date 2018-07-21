@@ -1,0 +1,6 @@
+t2018-07-21 15:32:09,049 INFO c.c.s.EventProcessor [Test worker] Processing file started. filepath=in/samples.json 
+d2018-07-21 15:32:09,274 INFO c.c.p.DatabaseOperationImpl [Test worker] 4 events inserted into DB. 
+k2018-07-21 15:32:09,276 INFO c.c.s.EventProcessor [Test worker] File processed. filepath=in/samples.json 
+J2018-07-21 15:32:09,311 INFO h.d.H.ENGINE [Test worker] Database closed 
+t2018-07-21 15:32:09,418 INFO c.c.s.EventProcessor [Test worker] Processing file started. filepath=in/samples.json 
+k2018-07-21 15:32:09,420 INFO c.c.s.EventProcessor [Test worker] File processed. filepath=in/samples.json 
